@@ -46,4 +46,12 @@
     e.preventDefault();
   });
 
+  // feedback message -- bootstrap alerts/toasts
+	$(document).on('click', '#request-authorisation', function(e) {
+		$('#feedback').fadeIn(400);
+		setTimeout(function(){ window.open('../case.html','_self');
+		  }, 2500);
+	});
+
+
 })(jQuery); // End of use strict

@@ -283,6 +283,14 @@
 					<h1 class="h3 mb-0 text-gray-800">Appraisal Authorisation and Contract</h1>
 				</div>
 
+				<!--Alerts/Toasts - Feedback message-->
+				<div id="feedback" class="alert alert-success bg-success" role="alert">
+					<div class="row">
+						<div class="col link__with-icon--left"><i class="fas fa-check-circle"></i>Appraisal completed.</div>
+						<div class="col text-right"><i class="fas fa-times-circle"></i></div>
+					</div>
+				</div>
+
 				<div class="row">
 
 					<div class="col-xl-9 col-lg-6">
@@ -396,7 +404,14 @@
 							<div class="collapse" id="contract" style="">
 								<div class="card-body">
 
-										Contract details
+										{{Contract details}}
+									<br><br><br>
+
+									<div class="row">
+										<div class="col">
+											<a href="#" class="link__with-icon--left"><i class="fas fa-arrow-circle-down"></i>Download Contract</a>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -521,8 +536,8 @@
 									<hr>
 									<div class="row">
 										<div class="col">
-											<a href="../case.html" class="btn btn-primary">Complete appraisal</a>
-											<!--<a href="../case.html" class="btn">Save and Exit</a>-->
+											<!--<a href="../case.html" class="btn btn-primary">Complete appraisal</a>-->
+											<button class="btn btn-primary" id="request-authorisation">Complete Appraisal</button>
 										</div>
 									</div>
 									<!--CTA-->
@@ -665,6 +680,9 @@
 							<div class="card-body">
 
 								Add a note
+								<br>
+								<hr>
+								DevOnly: <a href="step-11-approval-required.html">Authorisation required</a>
 
 							</div>
 						</div>
@@ -683,6 +701,7 @@
 			<div class="container my-auto">
 				<div class="copyright text-center my-auto">
 					<span>Scottish Enterprise footer</span>
+					<a href="step-11-approval-required.html">Appraisal authorisation required</a>
 				</div>
 			</div>
 		</footer>

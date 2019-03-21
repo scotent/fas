@@ -78,10 +78,19 @@ ul{
   }
 }
 
-.link-with-icon-left{
+.link__with-icon--left{
   i {
     padding-right:5px;
   }
+}
+
+.alert{
+  color:white;
+}
+
+#feedback{
+  display: none;
+  //visibility:hidden;
 }
 //
 //.table, th{
