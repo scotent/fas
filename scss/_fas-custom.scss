@@ -1,0 +1,89 @@
+ul{
+  list-style: none;
+  padding-left: 0;
+
+  li{
+    padding: 5px;
+  }
+
+  i{
+    padding-right: 10px;
+  }
+}
+
+.progress{
+  height: 30px;
+  background-color:white;
+}
+
+.progress-bar{
+  background-color:white;
+  color: $gray-600;
+}
+
+.progress-bar.bg-success{
+  color:white;
+}
+
+.progress-bar.bg-primary{
+  color:white;
+}
+
+.appraisal-nav .nav-link{
+  color:black;
+
+  i{
+    padding-right:10px;
+  }
+
+}
+
+.appraisal-nav {
+
+  i{
+    padding-right:10px;
+  }
+
+  .nav-link{
+    color: grey;
+
+    &:hover{
+      background-color:$gray-200;
+    }
+  }
+
+  .nav-link.active{
+    background:$info;
+  }
+
+  .nav-link.success.active{
+    background:$success;
+    i{
+      color: white!important;
+    }
+  }
+
+  .nav-link.warning.active{
+    background:$warning;
+    i{
+      color: white!important;
+    }
+  }
+
+  .nav-link.danger.active{
+    background:$danger;
+    i{
+      color: white!important;
+    }
+  }
+}
+
+.link-with-icon-left{
+  i {
+    padding-right:5px;
+  }
+}
+//
+//.table, th{
+//  color:black;
+//}
