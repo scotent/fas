@@ -429,14 +429,23 @@
 							<div class="collapse show" id="project-details" style="">
 								<div class="card-body">
 
-									<p>
+									<form>
+										<div class="form-group">
+											<label for="selection-1">Delegated authority name</label>
+											<select id="selection-1" class="custom-select">
+												<option selected>-- Select --</option>
+												<option value="1">Option 1</option>
+												<option value="2">Option 2</option>
+											</select>
+										</div>
 
-										<br>
-
-										TODO: Add relevant content.
-
-										<br><br>
-									</p>
+										<div class="form-group">
+											<label for="approve-comments">Comments</label>
+											<textarea class="form-control" id="approve-comments" rows="3"></textarea>
+											<!--<small class="form-text text-muted">-->
+												<!--Please enter a detailed description to be sent back to the Customer for review																	</small>-->
+										</div>
+									</form>
 
 									<!--CTA-->
 									<hr>
